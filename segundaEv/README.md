@@ -1,16 +1,33 @@
 ## Objetivos
+
+
 Para la implementación del programa deseado, en primer lugar nos tendremos que plantear la estructura que va a tener nuestra lista de animales. Esta estructura será un árbol, en el que en las hojas se encontrarán los distintos animales, y llegaremos a ellos por medio de las distintas características diferenciadoras que tiene cada uno. Una de las principales características será su clasificación en: reptiles, anfibios, mamíferos, aves y peces.
 Para realizar esta clasificación debemos tener en cuenta que las preguntas a realizar nos tienen que caracterizar una de las hojas frente a otra, y así poder llegar a la hoja deseada sin ningún tipo de ambigüedad. La lista mínima de animales a tener en cuenta para el desarrollo de esta práctica debe considerar dos animales por cada categoría principal.
 Para cumplir con la segunda fase del trabajo final debes realizar:
+
+
 1. El árbol que vamos a emplear, dibujarlo e incluirlo en el reporte a entregar.
    * Diseño de un mapa donde obtendremos las caracteristicas y un bosquejo de la ordenación del arbol con sus ramas
-    ![mapa_mapa](./assets/mapa.jpg)
+
+
+    ![mapa_mapa](./assets/map.jpg)
    * Diseño del arból con sus respectivas ramas 
-    ![arbol](./assets/mapa.jpg)
+
+
+    ![arbol](./assets/ramas.jpg)
+
+
 2. Código con las preguntas sobre las características que debe cumplir, comenzando por el animal situado más a la izquierda del árbol y por la pregunta del nodo raíz. Se seguirán verificando las características para un mismo animal siempre que se responda afirmativamente a las preguntas y se pasará a comprobar las características del animal siguiente (el situado inmediatamente a la derecha del animal actual) cada vez que se responda negativamente a una de las preguntas. De esta forma, cuando lleguemos a una hoja del árbol el programa dará como solución un animal que cumpla todas las preguntas anteriormente realizadas.
+
+
    * Aplicación y prueba del código 
+
+
     ![aplicacion](./assets/segundaEv.gif)
+
 3. Documentación en el reporte de cada una de las funciones que implementes en el programa.
+
+
     * Explicación del bloque de código 
 
 _Define una regla llamada start, que es el punto de entrada del programa. Se le pide al usuario que escriba "start" para comenzar el juego. Si el usuario escribe "start", se llama a la regla main, de lo contrario, se muestra un mensaje indicando que el comando no es reconocido y se vuelve a pedir al usuario que escriba "start"._
