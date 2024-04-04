@@ -23,7 +23,7 @@ Para cumplir con la segunda fase del trabajo final debes realizar:
    * Aplicación y prueba del código 
 
 
-    ![aplicacion](./assets/segundaEv.gif)
+    ![aplicacion](./assets/practica.gif)
 
 3. Documentación en el reporte de cada una de las funciones que implementes en el programa.
 
