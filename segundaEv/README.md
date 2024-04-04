@@ -30,7 +30,7 @@ Para cumplir con la segunda fase del trabajo final debes realizar:
 
     * Explicación del bloque de código 
 
-_Define una regla llamada start, que es el punto de entrada del programa. Se le pide al usuario que escriba "start" para comenzar el juego. Si el usuario escribe "start", se llama a la regla main, de lo contrario, se muestra un mensaje indicando que el comando no es reconocido y se vuelve a pedir al usuario que escriba "start"._
+_Se define una regla llamada start, que es el punto de entrada del programa. Se le pide al usuario que escriba "start" para comenzar el juego. Si el usuario escribe "start", se llama a la regla main, de lo contrario, se muestra un mensaje indicando que el comando no es reconocido y se vuelve a pedir al usuario que escriba "start"._
 ```
     start :-
     write('Escribe "start" para comenzar la adivinanza: '),
@@ -39,7 +39,7 @@ _Define una regla llamada start, que es el punto de entrada del programa. Se le 
         main;
         write('Comando no reconocido. Escribe "start" para comenzar.'), nl).
 ```
-_Define una regla main, que es donde ocurre la lógica principal del juego. En esta regla, se llama a hypothesis(Animal), que intentará adivinar el animal. Luego, se muestra el animal adivinado al usuario, seguido de la llamada a undo, que permite al usuario jugar nuevamente o terminar el juego._
+_Se define una regla main, que es donde ocurre la lógica principal del juego. En esta regla, se llama a `hypothesis(Animal)`, que intentará adivinar el animal. Luego, se muestra el animal adivinado al usuario, seguido de la llamada a undo, que permite al usuario jugar nuevamente o terminar el juego._
 ```
 main :-
     hypothesis(Animal),
