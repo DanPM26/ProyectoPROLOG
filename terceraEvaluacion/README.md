@@ -1,6 +1,8 @@
 ## Objetivos
 Que el programa aprenda nuevos animales, en caso de que no acierte el animal que había pensado el usuario. 
 
+![gif_explicación](./assets/finalfinal.gif)
+
 1. Documentación en el reporte de cada una de las funciones que implementes en el programa.
 
 
